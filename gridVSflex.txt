@@ -1,0 +1,2 @@
+Pour repartir des choses côte à cote le grid est supérieur au flex (pas besoin de spécifier de taille aux élements enfants).
+Par contre la répartition verticalement est plus facile en FlexBox. 

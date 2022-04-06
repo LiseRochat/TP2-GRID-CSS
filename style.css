@@ -64,6 +64,8 @@ button {
   letter-spacing: 1px;
   margin: 5px;
 }
+
+/* Centrer l'élément verticalement le flex est plus précis */
 .investors {
   display: flex;
   justify-content: center;
