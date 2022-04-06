@@ -53,8 +53,7 @@ h1 {
   background: rgb(10, 10, 10);
   border-radius: 10px;
 }
-.btn-container {
-}
+
 button {
   border: none;
   background: #474dff;
@@ -65,6 +64,7 @@ button {
   font-weight: bold;
   letter-spacing: 1px;
   margin: 5px;
+  display: block;
 }
 
 /* Centrer l'élément verticalement le flex est plus précis */
@@ -90,7 +90,7 @@ button {
 
 /* Tablette */
 /* Les règles suivantes s'applique pour les écrans inférieur à 870px */
-@media screen and(max-width: 870px) {
+@media screen and (max-width: 870px) {
   h1 {
     font-size: 2.5rem;
   }
@@ -106,7 +106,29 @@ button {
 
 /* Mobile */
 /* Favoriser les idth en % pour faciliter le responsive */
-@media screen and(max-width: 592px) {
-  
+/* Moins de 300px -> pas besoin de faire de responsive */
+@media screen and (max-width: 592px) {
+  nav {
+    grid-template-columns: 35% 65%;
+  }
+  nav ul {
+    font-size: 0.7rem;
+  }
+  .header {
+    /* Les éléments se positionnent l'un en dessous de l'autre */
+    display: block;
+  }
+  .infos {
+    display: block;
+    text-align: center;
+  }
+
+  button {
+    margin: 5px auto;
+  }
+
+  .img-container img {
+    height: 33px;
+  }
 
 }
