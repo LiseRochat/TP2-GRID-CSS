@@ -103,3 +103,10 @@ button {
     font-size: 0.7rem;
   }
 }
+
+/* Mobile */
+/* Favoriser les idth en % pour faciliter le responsive */
+@media screen and(max-width: 592px) {
+  
+
+}
