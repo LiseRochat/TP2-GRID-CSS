@@ -80,3 +80,17 @@ button {
 .img-container img {
   height: 60px;
 }
+
+/*********************** MEDIA QUERIES ***********************/
+/* Toujours l'ecran en 100% 
+* Eviter d'utiliser le mode mobile ou tabelle de l'inspecteur du navigateur
+*/
+
+/* Tablette */
+/* Les règles suivantes s'applique pour les écrans inférieur à 870px */
+@media screen and(max-width: 870px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+}
